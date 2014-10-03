@@ -1,0 +1,77 @@
+\documentclass[a4paper,10pt]{article}
+%\documentclass[a4paper,10pt]{scrartcl}
+
+\usepackage[utf8x]{inputenc}
+% \usepackage{t1enc}
+\usepackage[magyar]{babel}
+
+\title{\textbf{Önéletrajz}}
+\author{Szabados Péter}
+% \date{}
+
+% \pdfinfo{%
+%   /Title    (Önéletrajz)
+%   /Author   (Szabados Péter)
+%    /Creator  (Szabados Péter)
+%    /Producer (Szabados Péter)
+%    /Subject  (Önéletrajz)
+%    /Keywords ()
+% }
+
+\newcommand{\pont}[1]{\emph{#1}}
+\addtolength{\topmargin}{-1cm}
+\addtolength{\textheight}{2cm}
+\sloppy
+\begin{document}
+\maketitle
+
+\section*{Személyes adatok}
+\begin{tabular}{ll}
+ \pont{Születés}&Budapest, 1985. augusztus 29.\\
+ \pont{Értesítési cím}&1022 Budapest Felvinci út 11.\\
+ \pont{E-mail}&kangirigungi@gmail.com\\
+ \pont{Telefon}&30/708-7865\\
+\end{tabular}
+
+\section*{Tanulmányok}
+\begin{tabular}{ll}
+%  2009 október--(2010 október)&2F Iskola Webprogramozó tanfolyam\\
+ 2004--2009
+  &\textbf{Budapesti Műszaki és Gazdaságtudományi Egyetem}\\
+  &Villamosmérnöki és Informatikai Kar\\
+  &Műszaki Informatika szak\\
+  &Integrált Intelligens Rendszerek szakirány\\
+  &Diplomamunka témája:\\
+  &\emph{Valószínűségi tudásfúzió genetikai asszociációs kutatásokban}\\
+  1998--2004&\textbf{Móricz Zsigmond Gimnázium, Budapest}
+\end{tabular}
+
+\section*{Szakmai tapasztalat}
+\begin{tabular}{ll}
+ 2010--&Ericsson Magyarország kft.\\
+  &\emph{Főbb feladatok:} Nagy rendelkezésre állású, elosztott adatbázis fejlesztése, karbantartása.\\
+ 2008--2009&Rubin Zrt.\\
+  &\emph{Főbb feladatok:} Delphi komponensek fejlesztése.
+\end{tabular}
+
+\section*{Számítástechnikai ismeretek}
+\begin{tabular}{lp{12cm}}
+ \pont{Programozás}&C, C++ (C++11, Boost), Java (Java SE, Android), Delphi, Bash, Perl, Python, SQL, HTML, CSS, JavaScript, PHP, Prolog.\\
+ &OOP, TDD, Agile.\\
+ \pont{Fejlesztőeszközök}&Git, Clearcase, Make, Tup, Eclipse, Vim\\
+ \pont{Grafika}&Adobe Photoshop, GIMP, Inkscape\\
+ \pont{Egyéb}&Linux, MS windows, Word, Excel, PowerPoint, OpenOffice.org, LaTeX
+\end{tabular}
+
+\section*{Nyelvtudás}
+\begin{tabular}{ll}
+ \pont{Angol}&Középfok, C típusú nyelvvizsga (2002)\\
+ \pont{Német}&Alapfok (nincs nyelvvizsga)
+\end{tabular}
+
+\section*{Személyiségjegyek}
+Szeretek gondolkodást igénylő feladatokat megoldani. Szeretek új, modern technológiákkal megismerkedni. Szoftverfejlesztésben elsőnek tartom a minőséget.
+
+
+
+\end{document}
