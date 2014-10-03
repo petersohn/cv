@@ -2,3 +2,4 @@
 *.aux
 *.log
 .*.sw*
+*.out
